@@ -1,0 +1,421 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Leonardo | Estudante de Programação</title>
+  <meta name="description" content="Portfolio de Leonardo — Estudante do Ensino Médio apaixonado por tecnologia, dando os primeiros passos na programação. Confira meus projetos, habilidades e entre em contato." />
+  <meta property="og:title" content="Leonardo | Estudante de Programação" />
+  <meta property="og:description" content="Portfolio de Leonardo — Estudante do Ensino Médio apaixonado por tecnologia, dando os primeiros passos na programação." />
+  <meta property="og:type" content="website" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css" integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+
+  <!-- ============ HEADER ============ -->
+  <header id="header">
+    <a href="#home" class="logo">Leonardo<span>.</span></a>
+    <nav id="navbar">
+      <a href="#home" class="nav-link active">Início</a>
+      <a href="#about" class="nav-link">Sobre</a>
+      <a href="#skills" class="nav-link">Habilidades</a>
+      <a href="#projects" class="nav-link">Projetos</a>
+      <a href="#contact" class="nav-link">Contato</a>
+    </nav>
+    <div class="header-right">
+      <button id="lang-toggle" class="lang-toggle" aria-label="Toggle language">
+        <span class="lang-flag">🇧🇷</span>
+        <span class="lang-text">PT</span>
+      </button>
+      <div class="hamburger" id="hamburger">
+        <span></span><span></span><span></span>
+      </div>
+    </div>
+  </header>
+
+  <!-- ============ HERO ============ -->
+  <section id="home" class="hero">
+    <div class="hero-bg-orb"></div>
+    <div class="hero-bg-orb hero-bg-orb-2"></div>
+    <div class="hero-content">
+      <div class="hero-text">
+        <p class="hero-greeting" data-pt="Olá, eu sou" data-en="Hi, I'm">Olá, eu sou</p>
+        <h1 class="hero-name">Leonardo<span>.</span></h1>
+        <h3 class="typing-text"><span id="typed-text"></span><span class="cursor">|</span></h3>
+        <p class="hero-description" data-pt="Ensino Médio completo e formado em Informática pelo SENAI. Dando meus primeiros passos no mundo da programação e buscando aprender novas tecnologias para iniciar carreira na área de tecnologia." data-en="High School graduate with IT certification from SENAI, taking my first steps in the programming world. Seeking to learn new technologies and start a career in tech.">Ensino Médio completo e formado em Informática pelo SENAI. Dando meus primeiros passos no mundo da programação e buscando aprender novas tecnologias para iniciar carreira na área de tecnologia.</p>
+        <div class="hero-buttons">
+          <a href="curriculo.pdf" download class="btn btn-primary" data-pt="Baixar Currículo" data-en="Download Resume"><i class="fa-solid fa-download"></i> Baixar Currículo</a>
+          <a href="#contact" class="btn btn-secondary" data-pt="Fale Comigo" data-en="Contact Me"><i class="fa-solid fa-paper-plane"></i> Fale Comigo</a>
+        </div>
+        <div class="hero-social">
+          <a href="https://www.linkedin.com/in/leonardo-costa-823b6137b/" target="_blank" rel="noopener" aria-label="LinkedIn"><i class="fa-brands fa-linkedin-in"></i></a>
+          <a href="https://github.com/leonardoleoparo-alt" target="_blank" rel="noopener" aria-label="GitHub"><i class="fa-brands fa-github"></i></a>
+          <a href="mailto:leonardoleoparo@gmail.com" aria-label="Email"><i class="fa-solid fa-envelope"></i></a>
+        </div>
+      </div>
+      <div class="hero-image">
+        <div class="hero-image-wrapper">
+          <img src="main.jpg" alt="Leonardo - Desenvolvedor Full Stack" />
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ============ ABOUT ============ -->
+  <section id="about" class="section about">
+    <div class="section-container">
+      <p class="section-label" data-pt="Conheça-me" data-en="About Me">Conheça-me</p>
+      <h2 class="section-title" data-pt="Sobre Mim" data-en="About Me">Sobre Mim</h2>
+      <div class="about-content">
+        <div class="about-text">
+          <p data-pt="Concluí o Ensino Médio na E.E Santo Antônio e minha formação em Informática pelo SENAI. Sempre tive facilidade para aprender e uma grande curiosidade por tecnologia, o que me motivou a focar meus estudos atuais em programação." data-en="I graduated High School at E.E Santo Antônio and completed an IT course at SENAI. I've always been a quick learner with a great curiosity for technology, which motivated me to focus my current studies on programming.">Concluí o Ensino Médio na E.E Santo Antônio e minha formação em Informática pelo SENAI. Sempre tive facilidade para aprender e uma grande curiosidade por tecnologia, o que me motivou a focar meus estudos atuais em programação.</p>
+          <p data-pt="Tenho experiência prévia administrativa (Supply Chain e Almoxarifado), onde desenvolvi forte organização e comunicação. Meu foco atual é me aprofundar em desenvolvimento web e buscar minha primeira oportunidade no setor de TI." data-en="I have previous administrative experience (Supply Chain and Inventory), where I developed strong organization and communication skills. My current focus is to dive deep into web development and seek my first opportunity in the IT sector.">Tenho experiência prévia administrativa (Supply Chain e Almoxarifado), onde desenvolvi forte organização e comunicação. Meu foco atual é me aprofundar em desenvolvimento web e buscar minha primeira oportunidade no setor de TI.</p>
+        </div>
+        <div class="about-cards">
+          <div class="info-card reveal">
+            <i class="fa-solid fa-graduation-cap"></i>
+            <span class="info-label" data-pt="Escolaridade" data-en="Education">Escolaridade</span>
+            <span class="info-value" data-pt="Ensino Médio" data-en="High School">Ensino Médio</span>
+          </div>
+          <div class="info-card reveal">
+            <i class="fa-solid fa-code"></i>
+            <span class="info-label" data-pt="Foco" data-en="Focus">Foco</span>
+            <span class="info-value" data-pt="Estudos em TI" data-en="IT Studies">Estudos em TI</span>
+          </div>
+          <div class="info-card reveal">
+            <i class="fa-solid fa-rocket"></i>
+            <span class="info-label" data-pt="Status" data-en="Status">Status</span>
+            <span class="info-value" data-pt="Aberto a Oportunidades" data-en="Open to Opportunities">Aberto a Oportunidades</span>
+          </div>
+          <div class="info-card reveal">
+            <i class="fa-solid fa-location-dot"></i>
+            <span class="info-label" data-pt="Localização" data-en="Location">Localização</span>
+            <span class="info-value">Brasil</span>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ============ SKILLS ============ -->
+  <section id="skills" class="section skills">
+    <div class="section-container">
+      <p class="section-label" data-pt="Minhas Habilidades" data-en="My Skills">Minhas Habilidades</p>
+      <h2 class="section-title" data-pt="Tecnologias" data-en="Technologies">Tecnologias</h2>
+      <div class="skills-grid reveal-stagger">
+        <div class="skill-card">
+          <i class="fa-brands fa-html5"></i>
+          <span>HTML5</span>
+        </div>
+        <div class="skill-card">
+          <i class="fa-brands fa-css3-alt"></i>
+          <span>CSS3</span>
+        </div>
+        <div class="skill-card">
+          <i class="fa-brands fa-js"></i>
+          <span>JavaScript</span>
+        </div>
+        <div class="skill-card">
+          <i class="fa-brands fa-git-alt"></i>
+          <span>Git</span>
+        </div>
+        <div class="skill-card">
+          <i class="fa-brands fa-github"></i>
+          <span>GitHub</span>
+        </div>
+        <div class="skill-card">
+          <i class="fa-solid fa-database"></i>
+          <span>SQL</span>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ============ PROJECTS ============ -->
+  <section id="projects" class="section projects">
+    <div class="section-container">
+      <p class="section-label" data-pt="Meu Trabalho" data-en="My Work">Meu Trabalho</p>
+      <h2 class="section-title" data-pt="Projetos" data-en="Projects">Projetos</h2>
+      <div class="projects-grid">
+        <div class="project-card reveal">
+          <div class="project-image">
+            <div class="project-image-placeholder"><i class="fa-solid fa-code"></i></div>
+            <div class="project-overlay">
+              <a href="#" class="project-link" aria-label="View project"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+              <a href="#" class="project-link" aria-label="View code"><i class="fa-brands fa-github"></i></a>
+            </div>
+          </div>
+          <div class="project-body">
+            <h3 data-pt="Em breve" data-en="Coming Soon">Em breve</h3>
+            <p data-pt="Projeto em desenvolvimento. Volte em breve para conferir!" data-en="Project in development. Come back soon to check it out!">Projeto em desenvolvimento. Volte em breve para conferir!</p>
+            <div class="project-tags">
+              <span>HTML</span>
+              <span>CSS</span>
+              <span>JS</span>
+            </div>
+          </div>
+        </div>
+        <div class="project-card reveal">
+          <div class="project-image">
+            <div class="project-image-placeholder"><i class="fa-solid fa-laptop-code"></i></div>
+            <div class="project-overlay">
+              <a href="#" class="project-link" aria-label="View project"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+              <a href="#" class="project-link" aria-label="View code"><i class="fa-brands fa-github"></i></a>
+            </div>
+          </div>
+          <div class="project-body">
+            <h3 data-pt="Em breve" data-en="Coming Soon">Em breve</h3>
+            <p data-pt="Projeto em desenvolvimento. Volte em breve para conferir!" data-en="Project in development. Come back soon to check it out!">Projeto em desenvolvimento. Volte em breve para conferir!</p>
+            <div class="project-tags">
+              <span>HTML</span>
+              <span>CSS</span>
+              <span>JS</span>
+            </div>
+          </div>
+        </div>
+        <div class="project-card reveal">
+          <div class="project-image">
+            <div class="project-image-placeholder"><i class="fa-solid fa-mobile-screen-button"></i></div>
+            <div class="project-overlay">
+              <a href="#" class="project-link" aria-label="View project"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+              <a href="#" class="project-link" aria-label="View code"><i class="fa-brands fa-github"></i></a>
+            </div>
+          </div>
+          <div class="project-body">
+            <h3 data-pt="Em breve" data-en="Coming Soon">Em breve</h3>
+            <p data-pt="Projeto em desenvolvimento. Volte em breve para conferir!" data-en="Project in development. Come back soon to check it out!">Projeto em desenvolvimento. Volte em breve para conferir!</p>
+            <div class="project-tags">
+              <span>HTML</span>
+              <span>CSS</span>
+              <span>JS</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ============ CONTACT ============ -->
+  <section id="contact" class="section contact">
+    <div class="section-container">
+      <p class="section-label" data-pt="Entre em Contato" data-en="Get in Touch">Entre em Contato</p>
+      <h2 class="section-title" data-pt="Contato" data-en="Contact">Contato</h2>
+      <div class="contact-content">
+        <div class="contact-cards">
+          <a href="https://www.linkedin.com/in/leonardo-costa-823b6137b/" target="_blank" rel="noopener" class="contact-card reveal">
+            <i class="fa-brands fa-linkedin-in"></i>
+            <div>
+              <span class="contact-card-label">LinkedIn</span>
+              <span class="contact-card-value">Leonardo Costa</span>
+            </div>
+            <i class="fa-solid fa-arrow-up-right-from-square contact-card-arrow"></i>
+          </a>
+          <a href="https://github.com/leonardoleoparo-alt" target="_blank" rel="noopener" class="contact-card reveal">
+            <i class="fa-brands fa-github"></i>
+            <div>
+              <span class="contact-card-label">GitHub</span>
+              <span class="contact-card-value">leonardoleoparo-alt</span>
+            </div>
+            <i class="fa-solid fa-arrow-up-right-from-square contact-card-arrow"></i>
+          </a>
+          <a href="mailto:leonardoleoparo@gmail.com" class="contact-card reveal">
+            <i class="fa-solid fa-envelope"></i>
+            <div>
+              <span class="contact-card-label">Email</span>
+              <span class="contact-card-value">leonardoleoparo@gmail.com</span>
+            </div>
+            <i class="fa-solid fa-arrow-up-right-from-square contact-card-arrow"></i>
+          </a>
+        </div>
+        <form class="contact-form reveal" onsubmit="return false;">
+          <div class="form-group">
+            <input type="text" id="form-name" placeholder=" " required />
+            <label for="form-name" data-pt="Seu Nome" data-en="Your Name">Seu Nome</label>
+          </div>
+          <div class="form-group">
+            <input type="email" id="form-email" placeholder=" " required />
+            <label for="form-email" data-pt="Seu Email" data-en="Your Email">Seu Email</label>
+          </div>
+          <div class="form-group">
+            <textarea id="form-message" rows="5" placeholder=" " required></textarea>
+            <label for="form-message" data-pt="Sua Mensagem" data-en="Your Message">Sua Mensagem</label>
+          </div>
+          <button type="submit" class="btn btn-primary btn-full" data-pt="Enviar Mensagem" data-en="Send Message"><i class="fa-solid fa-paper-plane"></i> <span>Enviar Mensagem</span></button>
+        </form>
+      </div>
+    </div>
+  </section>
+
+  <!-- ============ FOOTER ============ -->
+  <footer>
+    <div class="footer-content">
+      <a href="#home" class="footer-logo">Leonardo<span>.</span></a>
+      <div class="footer-social">
+        <a href="https://www.linkedin.com/in/leonardo-costa-823b6137b/" target="_blank" rel="noopener" aria-label="LinkedIn"><i class="fa-brands fa-linkedin-in"></i></a>
+        <a href="https://github.com/leonardoleoparo-alt" target="_blank" rel="noopener" aria-label="GitHub"><i class="fa-brands fa-github"></i></a>
+        <a href="mailto:leonardoleoparo@gmail.com" aria-label="Email"><i class="fa-solid fa-envelope"></i></a>
+      </div>
+      <p class="footer-text">&copy; 2026 Leonardo. <span data-pt="Todos os direitos reservados." data-en="All rights reserved.">Todos os direitos reservados.</span></p>
+    </div>
+  </footer>
+
+  <!-- ============ JAVASCRIPT ============ -->
+  <script>
+    /* ── 1. Typing Effect ── */
+    const typedTextEl = document.getElementById('typed-text');
+    const wordsPt = ['Estudante de Programação', 'Apaixonado por Tecnologia', 'Aprendendo a Programar'];
+    const wordsEn = ['Programming Student', 'Tech Enthusiast', 'Learning to Code'];
+    let currentLang = 'pt';
+    let wordIndex = 0;
+    let charIndex = 0;
+    let isDeleting = false;
+    let words = wordsPt;
+
+    function typeEffect() {
+      const currentWord = words[wordIndex];
+      if (isDeleting) {
+        typedTextEl.textContent = currentWord.substring(0, charIndex - 1);
+        charIndex--;
+      } else {
+        typedTextEl.textContent = currentWord.substring(0, charIndex + 1);
+        charIndex++;
+      }
+
+      let typeSpeed = isDeleting ? 50 : 100;
+
+      if (!isDeleting && charIndex === currentWord.length) {
+        typeSpeed = 2000;
+        isDeleting = true;
+      } else if (isDeleting && charIndex === 0) {
+        isDeleting = false;
+        wordIndex = (wordIndex + 1) % words.length;
+        typeSpeed = 500;
+      }
+
+      setTimeout(typeEffect, typeSpeed);
+    }
+    typeEffect();
+
+    /* ── 2. Scroll Reveal ── */
+    const revealElements = document.querySelectorAll('.reveal, .reveal-stagger');
+    const revealOnScroll = () => {
+      revealElements.forEach(el => {
+        const windowHeight = window.innerHeight;
+        const elementTop = el.getBoundingClientRect().top;
+        const revealPoint = 150;
+        if (elementTop < windowHeight - revealPoint) {
+          el.classList.add('active');
+        }
+      });
+    };
+    window.addEventListener('scroll', revealOnScroll);
+    revealOnScroll();
+
+    /* ── 3. Active Nav on Scroll ── */
+    const sections = document.querySelectorAll('section[id]');
+    const navLinks = document.querySelectorAll('.nav-link');
+    window.addEventListener('scroll', () => {
+      let current = '';
+      sections.forEach(section => {
+        const sectionTop = section.offsetTop - 100;
+        if (scrollY >= sectionTop) {
+          current = section.getAttribute('id');
+        }
+      });
+      navLinks.forEach(link => {
+        link.classList.remove('active');
+        if (link.getAttribute('href') === '#' + current) {
+          link.classList.add('active');
+        }
+      });
+    });
+
+    /* ── 4. Header Background on Scroll ── */
+    const header = document.getElementById('header');
+    window.addEventListener('scroll', () => {
+      header.classList.toggle('scrolled', window.scrollY > 50);
+    });
+
+    /* ── 5. Mobile Menu Toggle ── */
+    const hamburger = document.getElementById('hamburger');
+    const navbar = document.getElementById('navbar');
+    hamburger.addEventListener('click', () => {
+      hamburger.classList.toggle('active');
+      navbar.classList.toggle('active');
+      document.body.classList.toggle('no-scroll');
+    });
+    navLinks.forEach(link => {
+      link.addEventListener('click', () => {
+        hamburger.classList.remove('active');
+        navbar.classList.remove('active');
+        document.body.classList.remove('no-scroll');
+      });
+    });
+
+    /* ── 6. Language Toggle ── */
+    const langToggle = document.getElementById('lang-toggle');
+    const langFlag = langToggle.querySelector('.lang-flag');
+    const langText = langToggle.querySelector('.lang-text');
+
+    const navTranslations = {
+      pt: ['Início', 'Sobre', 'Habilidades', 'Projetos', 'Contato'],
+      en: ['Home', 'About', 'Skills', 'Projects', 'Contact']
+    };
+
+    langToggle.addEventListener('click', () => {
+      currentLang = currentLang === 'pt' ? 'en' : 'pt';
+      langFlag.textContent = currentLang === 'pt' ? '🇧🇷' : '🇺🇸';
+      langText.textContent = currentLang === 'pt' ? 'PT' : 'EN';
+
+      document.querySelectorAll('[data-pt][data-en]').forEach(el => {
+        const text = el.getAttribute('data-' + currentLang);
+        if (el.tagName === 'INPUT' || el.tagName === 'TEXTAREA') {
+          el.placeholder = text;
+        } else if (el.tagName === 'LABEL') {
+          el.textContent = text;
+        } else {
+          const icon = el.querySelector('i');
+          if (icon) {
+            el.innerHTML = '';
+            el.appendChild(icon);
+            el.appendChild(document.createTextNode(' ' + text));
+          } else {
+            const btnSpan = el.querySelector('span:not(.cursor)');
+            if (btnSpan) {
+              btnSpan.textContent = text;
+            } else {
+              el.textContent = text;
+            }
+          }
+        }
+      });
+
+      navLinks.forEach((link, i) => {
+        link.textContent = navTranslations[currentLang][i];
+      });
+
+      words = currentLang === 'pt' ? wordsPt : wordsEn;
+      wordIndex = 0;
+      charIndex = 0;
+      isDeleting = false;
+
+      document.documentElement.lang = currentLang === 'pt' ? 'pt-BR' : 'en';
+    });
+
+    /* ── 7. Smooth Scroll ── */
+    document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+      anchor.addEventListener('click', function (e) {
+        e.preventDefault();
+        const target = document.querySelector(this.getAttribute('href'));
+        if (target) {
+          target.scrollIntoView({ behavior: 'smooth', block: 'start' });
+        }
+      });
+    });
+  </script>
+</body>
+</html>

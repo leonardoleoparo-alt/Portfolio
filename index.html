@@ -1,421 +1,560 @@
 <!DOCTYPE html>
 <html lang="pt-BR">
-<head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Leonardo | Estudante de Programação</title>
-  <meta name="description" content="Portfolio de Leonardo — Estudante do Ensino Médio apaixonado por tecnologia, dando os primeiros passos na programação. Confira meus projetos, habilidades e entre em contato." />
-  <meta property="og:title" content="Leonardo | Estudante de Programação" />
-  <meta property="og:description" content="Portfolio de Leonardo — Estudante do Ensino Médio apaixonado por tecnologia, dando os primeiros passos na programação." />
-  <meta property="og:type" content="website" />
-  <link rel="preconnect" href="https://fonts.googleapis.com" />
-  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet" />
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css" integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
-  <link rel="stylesheet" href="style.css" />
-</head>
-<body>
-
+ <head>
+  <meta charset="utf-8"/>
+  <meta content="width=device-width, initial-scale=1.0" name="viewport"/>
+  <title>
+   Leonardo Costa | Desenvolvedor Web em forma&ccedil;&atilde;o
+  </title>
+  <meta content="Portf&oacute;lio de Leonardo Costa, desenvolvedor web em forma&ccedil;&atilde;o. Conhe&ccedil;a projetos, habilidades, trajet&oacute;ria e formas de contato." name="description"/>
+  <meta content="index,follow" name="robots"/>
+  <meta content="Leonardo Costa | Desenvolvedor Web em forma&ccedil;&atilde;o" property="og:title"/>
+  <meta content="Projetos, habilidades e contato profissional de Leonardo Costa, desenvolvedor web em forma&ccedil;&atilde;o." property="og:description"/>
+  <meta content="website" property="og:type"/>
+  <meta content="pt_BR" property="og:locale"/>
+  <meta content="https://leonardoleoparo-alt.github.io/Portfolio/" property="og:url"/>
+  <meta content="https://leonardoleoparo-alt.github.io/Portfolio/assets/og-leonardo-costa.png" property="og:image"/>
+  <meta content="1200" property="og:image:width"/>
+  <meta content="630" property="og:image:height"/>
+  <meta content="Portf&oacute;lio de Leonardo Costa &mdash; Desenvolvedor Web em forma&ccedil;&atilde;o" property="og:image:alt"/>
+  <meta content="summary_large_image" name="twitter:card"/>
+  <meta content="Leonardo Costa | Desenvolvedor Web em forma&ccedil;&atilde;o" name="twitter:title"/>
+  <meta content="Projetos, habilidades e contato profissional de Leonardo Costa." name="twitter:description"/>
+  <meta content="https://leonardoleoparo-alt.github.io/Portfolio/assets/og-leonardo-costa.png" name="twitter:image"/>
+  <meta content="#0a0a0f" name="theme-color"/>
+  <link href="https://fonts.googleapis.com" rel="preconnect"/>
+  <link crossorigin="" href="https://fonts.gstatic.com" rel="preconnect"/>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&amp;display=swap" rel="stylesheet"/>
+  <link crossorigin="anonymous" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css" integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A==" referrerpolicy="no-referrer" rel="stylesheet"/>
+  <link href="https://leonardoleoparo-alt.github.io/Portfolio/" rel="canonical"/>
+  <script>
+   document.documentElement.classList.add('js');
+  </script>
+  <link href="assets/favicon-lc-64.png" rel="icon" sizes="64x64" type="image/png"/>
+  <link href="assets/apple-touch-icon.png" rel="apple-touch-icon" sizes="180x180"/>
+  <link as="image" fetchpriority="high" href="assets/hero-leonardo-purple.webp" rel="preload" type="image/webp"/>
+  <link crossorigin="anonymous" href="https://cdnjs.cloudflare.com" rel="preconnect"/>
+  <link href="style.css" rel="stylesheet"/>
+ </head>
+ <body>
+  <a class="skip-link" href="#main-content">
+   Pular para o conte&uacute;do
+  </a>
   <!-- ============ HEADER ============ -->
   <header id="header">
-    <a href="#home" class="logo">Leonardo<span>.</span></a>
-    <nav id="navbar">
-      <a href="#home" class="nav-link active">Início</a>
-      <a href="#about" class="nav-link">Sobre</a>
-      <a href="#skills" class="nav-link">Habilidades</a>
-      <a href="#projects" class="nav-link">Projetos</a>
-      <a href="#contact" class="nav-link">Contato</a>
-    </nav>
-    <div class="header-right">
-      <button id="lang-toggle" class="lang-toggle" aria-label="Toggle language">
-        <span class="lang-flag">🇧🇷</span>
-        <span class="lang-text">PT</span>
-      </button>
-      <div class="hamburger" id="hamburger">
-        <span></span><span></span><span></span>
-      </div>
-    </div>
+   <a aria-label="Leonardo Costa" class="logo" href="#home">
+    <img alt="" height="127" src="assets/logo-leonardo-purple.webp" width="640"/>
+   </a>
+   <nav id="navbar">
+    <a aria-current="location" class="nav-link active" href="#home">
+     In&iacute;cio
+    </a>
+    <a class="nav-link" href="#about">
+     Sobre
+    </a>
+    <a class="nav-link" href="#skills">
+     Habilidades
+    </a>
+    <a class="nav-link" href="#projects">
+     Projetos
+    </a>
+    <a class="nav-link" href="#contact">
+     Contato
+    </a>
+   </nav>
+   <div class="header-right">
+    <button aria-label="Mudar idioma para ingl&ecirc;s" class="lang-toggle" id="lang-toggle" type="button">
+     <span class="lang-flag">
+      🇧🇷
+     </span>
+     <span class="lang-text">
+      PT
+     </span>
+    </button>
+    <button aria-controls="navbar" aria-expanded="false" aria-label="Abrir menu" class="hamburger" id="hamburger" type="button">
+     <span>
+     </span>
+     <span>
+     </span>
+     <span>
+     </span>
+    </button>
+   </div>
   </header>
-
   <!-- ============ HERO ============ -->
-  <section id="home" class="hero">
-    <div class="hero-bg-orb"></div>
-    <div class="hero-bg-orb hero-bg-orb-2"></div>
+  <main id="main-content">
+   <section class="hero" id="home">
+    <div class="hero-bg-orb">
+    </div>
+    <div class="hero-bg-orb hero-bg-orb-2">
+    </div>
     <div class="hero-content">
-      <div class="hero-text">
-        <p class="hero-greeting" data-pt="Olá, eu sou" data-en="Hi, I'm">Olá, eu sou</p>
-        <h1 class="hero-name">Leonardo<span>.</span></h1>
-        <h3 class="typing-text"><span id="typed-text"></span><span class="cursor">|</span></h3>
-        <p class="hero-description" data-pt="Ensino Médio completo e formado em Informática pelo SENAI. Dando meus primeiros passos no mundo da programação e buscando aprender novas tecnologias para iniciar carreira na área de tecnologia." data-en="High School graduate with IT certification from SENAI, taking my first steps in the programming world. Seeking to learn new technologies and start a career in tech.">Ensino Médio completo e formado em Informática pelo SENAI. Dando meus primeiros passos no mundo da programação e buscando aprender novas tecnologias para iniciar carreira na área de tecnologia.</p>
-        <div class="hero-buttons">
-          <a href="curriculo.pdf" download class="btn btn-primary" data-pt="Baixar Currículo" data-en="Download Resume"><i class="fa-solid fa-download"></i> Baixar Currículo</a>
-          <a href="#contact" class="btn btn-secondary" data-pt="Fale Comigo" data-en="Contact Me"><i class="fa-solid fa-paper-plane"></i> Fale Comigo</a>
-        </div>
-        <div class="hero-social">
-          <a href="https://www.linkedin.com/in/leonardo-dos-santos-da-costa/" target="_blank" rel="noopener" aria-label="LinkedIn"><i class="fa-brands fa-linkedin-in"></i></a>
-          <a href="https://github.com/leonardoleoparo-alt" target="_blank" rel="noopener" aria-label="GitHub"><i class="fa-brands fa-github"></i></a>
-          <a href="mailto:leonardoleoparo@gmail.com" aria-label="Email"><i class="fa-solid fa-envelope"></i></a>
-        </div>
+     <div class="hero-text">
+      <p class="hero-greeting" data-en="Hi, I'm" data-pt="Ol&aacute;, eu sou">
+       Ol&aacute;, eu sou
+      </p>
+      <div aria-label="Leonardo Costa" class="hero-signature">
+       <img alt="Assinatura Leonardo Costa" height="223" src="assets/signature-leonardo.webp" width="900"/>
       </div>
-      <div class="hero-image">
-        <div class="hero-image-wrapper">
-          <img src="main.jpg" alt="Leonardo - Desenvolvedor Full Stack" />
-        </div>
+      <h1 class="typing-text" data-en="Web Developer in Training" data-pt="Desenvolvedor Web em forma&ccedil;&atilde;o">
+       Desenvolvedor Web em forma&ccedil;&atilde;o
+      </h1>
+      <p class="hero-description" data-en="IT graduate from SENAI focused on web development. I build responsive interfaces and practical projects while expanding my skills and preparing for my first opportunity in the technology field." data-pt="Formado em Inform&aacute;tica pelo SENAI e focado em desenvolvimento web. Crio interfaces responsivas e projetos pr&aacute;ticos enquanto amplio meus conhecimentos e me preparo para minha primeira oportunidade na &aacute;rea de tecnologia.">
+       Formado em Inform&aacute;tica pelo SENAI e focado em desenvolvimento web. Crio interfaces responsivas e projetos pr&aacute;ticos enquanto amplio meus conhecimentos e me preparo para minha primeira oportunidade na &aacute;rea de tecnologia.
+      </p>
+      <div class="hero-buttons">
+       <a class="btn btn-primary" data-en="Download Resume" data-pt="Baixar Curr&iacute;culo" download="" href="Leonardo-Costa-Curriculo.pdf">
+        <i aria-hidden="true" class="fa-solid fa-download">
+        </i>
+        Baixar Curr&iacute;culo
+       </a>
+       <a class="btn btn-secondary btn-whatsapp" data-en="Message me" data-pt="Fale comigo" href="https://wa.me/5519998258329?text=Ol%C3%A1%2C%20Leonardo%21%20Vi%20seu%20portf%C3%B3lio%20e%20gostaria%20de%20conversar%20sobre%20uma%20oportunidade%20ou%20projeto." rel="noopener noreferrer" target="_blank">
+        <i aria-hidden="true" class="fa-brands fa-whatsapp">
+        </i>
+        Fale comigo
+       </a>
       </div>
+      <div class="hero-social">
+       <a aria-label="LinkedIn" href="https://www.linkedin.com/in/leonardo-dos-santos-da-costa/" rel="noopener noreferrer" target="_blank">
+        <i aria-hidden="true" class="fa-brands fa-linkedin-in">
+        </i>
+       </a>
+       <a aria-label="GitHub" href="https://github.com/leonardoleoparo-alt" rel="noopener noreferrer" target="_blank">
+        <i aria-hidden="true" class="fa-brands fa-github">
+        </i>
+       </a>
+       <a aria-label="Email" href="mailto:leonardoleoparo@gmail.com">
+        <i aria-hidden="true" class="fa-solid fa-envelope">
+        </i>
+       </a>
+      </div>
+     </div>
+     <div class="hero-image">
+      <div class="hero-image-wrapper">
+       <img alt="Foto de Leonardo Costa" decoding="async" fetchpriority="high" height="820" src="assets/hero-leonardo-purple.webp" width="820"/>
+      </div>
+     </div>
     </div>
-  </section>
-
+   </section>
+   <section class="section about" id="about">
+    <div class="section-container">
+     <p class="section-label" data-en="About Me" data-pt="Conhe&ccedil;a-me">
+      Conhe&ccedil;a-me
+     </p>
+     <h2 class="section-title" data-en="About Me" data-pt="Sobre Mim">
+      Sobre Mim
+     </h2>
+     <div class="about-content">
+      <div class="about-text">
+       <p data-en="I completed High School at E.E. Santo Ant&ocirc;nio and an IT program at SENAI. My interest in technology led me to focus on web development, where I have been building responsive interfaces and practical projects to improve my HTML, CSS, JavaScript and development-tool skills." data-pt="Conclu&iacute; o Ensino M&eacute;dio na E.E. Santo Ant&ocirc;nio e minha forma&ccedil;&atilde;o em Inform&aacute;tica pelo SENAI. Meu interesse por tecnologia me levou a focar os estudos em desenvolvimento web, onde venho criando interfaces responsivas e projetos pr&aacute;ticos para evoluir em HTML, CSS, JavaScript e ferramentas de desenvolvimento.">
+        Conclu&iacute; o Ensino M&eacute;dio na E.E. Santo Ant&ocirc;nio e minha forma&ccedil;&atilde;o em Inform&aacute;tica pelo SENAI. Meu interesse por tecnologia me levou a focar os estudos em desenvolvimento web, onde venho criando interfaces responsivas e projetos pr&aacute;ticos para evoluir em HTML, CSS, JavaScript e ferramentas de desenvolvimento.
+       </p>
+       <p data-en="I also bring administrative experience in Supply Chain and Inventory, which strengthened my organization, responsibility, communication and process awareness. I am looking for my first opportunity in IT to apply what I have been building, learn from real challenges and keep growing as a developer." data-pt="Tamb&eacute;m trago experi&ecirc;ncia administrativa em Supply Chain e Almoxarifado, que fortaleceu minha organiza&ccedil;&atilde;o, responsabilidade, comunica&ccedil;&atilde;o e vis&atilde;o de processos. Busco minha primeira oportunidade em TI para aplicar o que venho desenvolvendo, aprender com desafios reais e continuar evoluindo como desenvolvedor.">
+        Tamb&eacute;m trago experi&ecirc;ncia administrativa em Supply Chain e Almoxarifado, que fortaleceu minha organiza&ccedil;&atilde;o, responsabilidade, comunica&ccedil;&atilde;o e vis&atilde;o de processos. Busco minha primeira oportunidade em TI para aplicar o que venho desenvolvendo, aprender com desafios reais e continuar evoluindo como desenvolvedor.
+       </p>
+      </div>
+      <div class="about-cards">
+       <div class="info-card reveal">
+        <i aria-hidden="true" class="fa-solid fa-graduation-cap">
+        </i>
+        <span class="info-label" data-en="Education" data-pt="Escolaridade">
+         Escolaridade
+        </span>
+        <span class="info-value" data-en="High School" data-pt="Ensino M&eacute;dio">
+         Ensino M&eacute;dio
+        </span>
+       </div>
+       <div class="info-card reveal">
+        <i aria-hidden="true" class="fa-solid fa-code">
+        </i>
+        <span class="info-label" data-en="Focus" data-pt="Foco">
+         Foco
+        </span>
+        <span class="info-value" data-en="IT Studies" data-pt="Estudos em TI">
+         Estudos em TI
+        </span>
+       </div>
+       <div class="info-card reveal">
+        <i aria-hidden="true" class="fa-solid fa-rocket">
+        </i>
+        <span class="info-label" data-en="Status" data-pt="Status">
+         Status
+        </span>
+        <span class="info-value" data-en="Open to Opportunities" data-pt="Aberto a Oportunidades">
+         Aberto a Oportunidades
+        </span>
+       </div>
+       <div class="info-card reveal">
+        <i aria-hidden="true" class="fa-solid fa-location-dot">
+        </i>
+        <span class="info-label" data-en="Location" data-pt="Localiza&ccedil;&atilde;o">
+         Localiza&ccedil;&atilde;o
+        </span>
+        <span class="info-value">
+         Brasil
+        </span>
+       </div>
+      </div>
+     </div>
+    </div>
+   </section>
+   <section class="section skills" id="skills">
+    <div class="section-container">
+     <p class="section-label" data-en="My Skills" data-pt="Minhas Habilidades">
+      Minhas Habilidades
+     </p>
+     <h2 class="section-title" data-en="Technologies" data-pt="Tecnologias">
+      Tecnologias
+     </h2>
+     <div class="skills-grid reveal-stagger">
+      <div class="skill-card">
+       <i aria-hidden="true" class="fa-brands fa-html5">
+       </i>
+       <span>
+        HTML5
+       </span>
+      </div>
+      <div class="skill-card">
+       <i aria-hidden="true" class="fa-brands fa-css3-alt">
+       </i>
+       <span>
+        CSS3
+       </span>
+      </div>
+      <div class="skill-card">
+       <i aria-hidden="true" class="fa-brands fa-js">
+       </i>
+       <span>
+        JavaScript
+       </span>
+      </div>
+      <div class="skill-card">
+       <i aria-hidden="true" class="fa-brands fa-git-alt">
+       </i>
+       <span>
+        Git
+       </span>
+      </div>
+      <div class="skill-card">
+       <i aria-hidden="true" class="fa-brands fa-github">
+       </i>
+       <span>
+        GitHub
+       </span>
+      </div>
+      <div class="skill-card">
+       <i aria-hidden="true" class="fa-solid fa-database">
+       </i>
+       <span>
+        SQL
+       </span>
+      </div>
+     </div>
+    </div>
+   </section>
+   <section class="section projects" id="projects">
+    <div class="section-container">
+     <p class="section-label" data-en="My Work" data-pt="Meu Trabalho">
+      Meu Trabalho
+     </p>
+     <h2 class="section-title" data-en="Projects" data-pt="Projetos">
+      Projetos
+     </h2>
+     <div class="projects-grid">
+      <article class="project-card reveal">
+       <div class="project-image project-image-ward">
+        <img alt="Captura do Cat&aacute;logo WARD &mdash; painel de opera&ccedil;&otilde;es" class="project-preview-img" decoding="async" height="522" loading="lazy" src="assets/ward-catalog-preview.webp" width="960"/>
+        <div class="project-overlay">
+         <a aria-label="Abrir Cat&aacute;logo WARD" class="project-link" href="https://leonardoleoparo-alt.github.io/Catalogo-Ward/" rel="noopener noreferrer" target="_blank">
+          <i aria-hidden="true" class="fa-solid fa-arrow-up-right-from-square">
+          </i>
+         </a>
+         <a aria-label="Ver c&oacute;digo do Cat&aacute;logo WARD" class="project-link" href="https://github.com/leonardoleoparo-alt/Catalogo-Ward" rel="noopener noreferrer" target="_blank">
+          <i aria-hidden="true" class="fa-brands fa-github">
+          </i>
+         </a>
+        </div>
+       </div>
+       <div class="project-body">
+        <h3 data-en="WARD Catalog" data-pt="Cat&aacute;logo WARD">
+         Cat&aacute;logo WARD
+        </h3>
+        <p data-en="A S.T.A.L.K.E.R.-inspired interface for organizing WARD operational information, including logistics, economy, tactical map, personnel and documents." data-pt="Interface tem&aacute;tica inspirada em S.T.A.L.K.E.R. para organizar informa&ccedil;&otilde;es operacionais da WARD, incluindo log&iacute;stica, economia, mapa t&aacute;tico, pessoal e documentos.">
+         Interface tem&aacute;tica inspirada em S.T.A.L.K.E.R. para organizar informa&ccedil;&otilde;es operacionais da WARD, incluindo log&iacute;stica, economia, mapa t&aacute;tico, pessoal e documentos.
+        </p>
+        <div class="project-actions">
+         <a class="project-action-link" data-en="View project" data-pt="Ver projeto" href="https://leonardoleoparo-alt.github.io/Catalogo-Ward/" rel="noopener noreferrer" target="_blank">
+          Ver projeto
+         </a>
+         <a class="project-action-link project-action-muted" data-en="Source" data-pt="C&oacute;digo" href="https://github.com/leonardoleoparo-alt/Catalogo-Ward" rel="noopener noreferrer" target="_blank">
+          C&oacute;digo
+         </a>
+        </div>
+        <div class="project-tags">
+         <span>
+          HTML
+         </span>
+         <span>
+          CSS
+         </span>
+         <span>
+          JavaScript
+         </span>
+        </div>
+       </div>
+      </article>
+      <div class="project-card reveal">
+       <div class="project-image">
+        <div class="project-image-placeholder">
+         <i aria-hidden="true" class="fa-solid fa-laptop-code">
+         </i>
+        </div>
+       </div>
+       <div class="project-body">
+        <h3 data-en="Coming Soon" data-pt="Em breve">
+         Em breve
+        </h3>
+        <p data-en="Project in development. Come back soon to check it out!" data-pt="Projeto em desenvolvimento. Volte em breve para conferir!">
+         Projeto em desenvolvimento. Volte em breve para conferir!
+        </p>
+       </div>
+      </div>
+     </div>
+    </div>
+   </section>
+   <section class="section contact" id="contact">
+    <div class="section-container">
+     <p class="section-label" data-en="Get in Touch" data-pt="Entre em Contato">
+      Entre em Contato
+     </p>
+     <h2 class="section-title" data-en="Contact" data-pt="Contato">
+      Contato
+     </h2>
+     <div class="contact-content">
+      <div class="contact-cards">
+       <a class="contact-card reveal" href="https://www.linkedin.com/in/leonardo-dos-santos-da-costa/" rel="noopener noreferrer" target="_blank">
+        <i aria-hidden="true" class="fa-brands fa-linkedin-in">
+        </i>
+        <div>
+         <span class="contact-card-label">
+          LinkedIn
+         </span>
+         <span class="contact-card-value">
+          Leonardo Costa
+         </span>
+        </div>
+        <i aria-hidden="true" class="fa-solid fa-arrow-up-right-from-square contact-card-arrow">
+        </i>
+       </a>
+       <a class="contact-card reveal" href="https://github.com/leonardoleoparo-alt" rel="noopener noreferrer" target="_blank">
+        <i aria-hidden="true" class="fa-brands fa-github">
+        </i>
+        <div>
+         <span class="contact-card-label">
+          GitHub
+         </span>
+         <span class="contact-card-value">
+          leonardoleoparo-alt
+         </span>
+        </div>
+        <i aria-hidden="true" class="fa-solid fa-arrow-up-right-from-square contact-card-arrow">
+        </i>
+       </a>
+       <a class="contact-card reveal" href="mailto:leonardoleoparo@gmail.com">
+        <i aria-hidden="true" class="fa-solid fa-envelope">
+        </i>
+        <div>
+         <span class="contact-card-label">
+          Email
+         </span>
+         <span class="contact-card-value">
+          leonardoleoparo@gmail.com
+         </span>
+        </div>
+        <i aria-hidden="true" class="fa-solid fa-arrow-up-right-from-square contact-card-arrow">
+        </i>
+       </a>
+      </div>
+      <div class="contact-cta reveal">
+       <div class="contact-cta-copy">
+        <span class="contact-cta-kicker" data-en="Direct contact" data-pt="Contato direto">
+         Contato direto
+        </span>
+        <h3 data-en="Let's talk?" data-pt="Vamos conversar?">
+         Vamos conversar?
+        </h3>
+        <p data-en="If you have an opportunity, a project, or just want to talk about technology, feel free to message me directly." data-pt="Se voc&ecirc; tem uma oportunidade, projeto ou apenas quer trocar uma ideia sobre tecnologia, pode me chamar diretamente.">
+         Se voc&ecirc; tem uma oportunidade, projeto ou apenas quer trocar uma ideia sobre tecnologia, pode me chamar diretamente.
+        </p>
+       </div>
+       <div class="contact-cta-actions">
+        <a class="btn btn-primary btn-contact-whatsapp" data-en="Chat on WhatsApp" data-pt="Conversar no WhatsApp" href="https://wa.me/5519998258329?text=Ol%C3%A1%2C%20Leonardo%21%20Vi%20seu%20portf%C3%B3lio%20e%20gostaria%20de%20conversar%20sobre%20uma%20oportunidade%20ou%20projeto." rel="noopener noreferrer" target="_blank">
+         <i aria-hidden="true" class="fa-brands fa-whatsapp">
+         </i>
+         Conversar no WhatsApp
+        </a>
+        <a class="btn btn-secondary" data-en="Send email" data-pt="Enviar email" href="mailto:leonardoleoparo@gmail.com">
+         <i aria-hidden="true" class="fa-solid fa-envelope">
+         </i>
+         Enviar email
+        </a>
+       </div>
+      </div>
+     </div>
+    </div>
+   </section>
+  </main>
   <!-- ============ ABOUT ============ -->
-  <section id="about" class="section about">
-    <div class="section-container">
-      <p class="section-label" data-pt="Conheça-me" data-en="About Me">Conheça-me</p>
-      <h2 class="section-title" data-pt="Sobre Mim" data-en="About Me">Sobre Mim</h2>
-      <div class="about-content">
-        <div class="about-text">
-          <p data-pt="Concluí o Ensino Médio na E.E Santo Antônio e minha formação em Informática pelo SENAI. Sempre tive facilidade para aprender e uma grande curiosidade por tecnologia, o que me motivou a focar meus estudos atuais em programação." data-en="I graduated High School at E.E Santo Antônio and completed an IT course at SENAI. I've always been a quick learner with a great curiosity for technology, which motivated me to focus my current studies on programming.">Concluí o Ensino Médio na E.E Santo Antônio e minha formação em Informática pelo SENAI. Sempre tive facilidade para aprender e uma grande curiosidade por tecnologia, o que me motivou a focar meus estudos atuais em programação.</p>
-          <p data-pt="Tenho experiência prévia administrativa (Supply Chain e Almoxarifado), onde desenvolvi forte organização e comunicação. Meu foco atual é me aprofundar em desenvolvimento web e buscar minha primeira oportunidade no setor de TI." data-en="I have previous administrative experience (Supply Chain and Inventory), where I developed strong organization and communication skills. My current focus is to dive deep into web development and seek my first opportunity in the IT sector.">Tenho experiência prévia administrativa (Supply Chain e Almoxarifado), onde desenvolvi forte organização e comunicação. Meu foco atual é me aprofundar em desenvolvimento web e buscar minha primeira oportunidade no setor de TI.</p>
-        </div>
-        <div class="about-cards">
-          <div class="info-card reveal">
-            <i class="fa-solid fa-graduation-cap"></i>
-            <span class="info-label" data-pt="Escolaridade" data-en="Education">Escolaridade</span>
-            <span class="info-value" data-pt="Ensino Médio" data-en="High School">Ensino Médio</span>
-          </div>
-          <div class="info-card reveal">
-            <i class="fa-solid fa-code"></i>
-            <span class="info-label" data-pt="Foco" data-en="Focus">Foco</span>
-            <span class="info-value" data-pt="Estudos em TI" data-en="IT Studies">Estudos em TI</span>
-          </div>
-          <div class="info-card reveal">
-            <i class="fa-solid fa-rocket"></i>
-            <span class="info-label" data-pt="Status" data-en="Status">Status</span>
-            <span class="info-value" data-pt="Aberto a Oportunidades" data-en="Open to Opportunities">Aberto a Oportunidades</span>
-          </div>
-          <div class="info-card reveal">
-            <i class="fa-solid fa-location-dot"></i>
-            <span class="info-label" data-pt="Localização" data-en="Location">Localização</span>
-            <span class="info-value">Brasil</span>
-          </div>
-        </div>
-      </div>
-    </div>
-  </section>
-
   <!-- ============ SKILLS ============ -->
-  <section id="skills" class="section skills">
-    <div class="section-container">
-      <p class="section-label" data-pt="Minhas Habilidades" data-en="My Skills">Minhas Habilidades</p>
-      <h2 class="section-title" data-pt="Tecnologias" data-en="Technologies">Tecnologias</h2>
-      <div class="skills-grid reveal-stagger">
-        <div class="skill-card">
-          <i class="fa-brands fa-html5"></i>
-          <span>HTML5</span>
-        </div>
-        <div class="skill-card">
-          <i class="fa-brands fa-css3-alt"></i>
-          <span>CSS3</span>
-        </div>
-        <div class="skill-card">
-          <i class="fa-brands fa-js"></i>
-          <span>JavaScript</span>
-        </div>
-        <div class="skill-card">
-          <i class="fa-brands fa-git-alt"></i>
-          <span>Git</span>
-        </div>
-        <div class="skill-card">
-          <i class="fa-brands fa-github"></i>
-          <span>GitHub</span>
-        </div>
-        <div class="skill-card">
-          <i class="fa-solid fa-database"></i>
-          <span>SQL</span>
-        </div>
-      </div>
-    </div>
-  </section>
-
   <!-- ============ PROJECTS ============ -->
-  <section id="projects" class="section projects">
-    <div class="section-container">
-      <p class="section-label" data-pt="Meu Trabalho" data-en="My Work">Meu Trabalho</p>
-      <h2 class="section-title" data-pt="Projetos" data-en="Projects">Projetos</h2>
-      <div class="projects-grid">
-        <div class="project-card reveal">
-          <div class="project-image">
-            <div class="project-image-placeholder"><i class="fa-solid fa-code"></i></div>
-            <div class="project-overlay">
-              <a href="#" class="project-link" aria-label="View project"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
-              <a href="#" class="project-link" aria-label="View code"><i class="fa-brands fa-github"></i></a>
-            </div>
-          </div>
-          <div class="project-body">
-            <h3 data-pt="Em breve" data-en="Coming Soon">Em breve</h3>
-            <p data-pt="Projeto em desenvolvimento. Volte em breve para conferir!" data-en="Project in development. Come back soon to check it out!">Projeto em desenvolvimento. Volte em breve para conferir!</p>
-            <div class="project-tags">
-              <span>HTML</span>
-              <span>CSS</span>
-              <span>JS</span>
-            </div>
-          </div>
-        </div>
-        <div class="project-card reveal">
-          <div class="project-image">
-            <div class="project-image-placeholder"><i class="fa-solid fa-laptop-code"></i></div>
-            <div class="project-overlay">
-              <a href="#" class="project-link" aria-label="View project"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
-              <a href="#" class="project-link" aria-label="View code"><i class="fa-brands fa-github"></i></a>
-            </div>
-          </div>
-          <div class="project-body">
-            <h3 data-pt="Em breve" data-en="Coming Soon">Em breve</h3>
-            <p data-pt="Projeto em desenvolvimento. Volte em breve para conferir!" data-en="Project in development. Come back soon to check it out!">Projeto em desenvolvimento. Volte em breve para conferir!</p>
-            <div class="project-tags">
-              <span>HTML</span>
-              <span>CSS</span>
-              <span>JS</span>
-            </div>
-          </div>
-        </div>
-        <div class="project-card reveal">
-          <div class="project-image">
-            <div class="project-image-placeholder"><i class="fa-solid fa-mobile-screen-button"></i></div>
-            <div class="project-overlay">
-              <a href="#" class="project-link" aria-label="View project"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
-              <a href="#" class="project-link" aria-label="View code"><i class="fa-brands fa-github"></i></a>
-            </div>
-          </div>
-          <div class="project-body">
-            <h3 data-pt="Em breve" data-en="Coming Soon">Em breve</h3>
-            <p data-pt="Projeto em desenvolvimento. Volte em breve para conferir!" data-en="Project in development. Come back soon to check it out!">Projeto em desenvolvimento. Volte em breve para conferir!</p>
-            <div class="project-tags">
-              <span>HTML</span>
-              <span>CSS</span>
-              <span>JS</span>
-            </div>
-          </div>
-        </div>
-      </div>
-    </div>
-  </section>
-
   <!-- ============ CONTACT ============ -->
-  <section id="contact" class="section contact">
-    <div class="section-container">
-      <p class="section-label" data-pt="Entre em Contato" data-en="Get in Touch">Entre em Contato</p>
-      <h2 class="section-title" data-pt="Contato" data-en="Contact">Contato</h2>
-      <div class="contact-content">
-        <div class="contact-cards">
-          <a href="https://www.linkedin.com/in/leonardo-dos-santos-da-costa/" target="_blank" rel="noopener" class="contact-card reveal">
-            <i class="fa-brands fa-linkedin-in"></i>
-            <div>
-              <span class="contact-card-label">LinkedIn</span>
-              <span class="contact-card-value">Leonardo Costa</span>
-            </div>
-            <i class="fa-solid fa-arrow-up-right-from-square contact-card-arrow"></i>
-          </a>
-          <a href="https://github.com/leonardoleoparo-alt" target="_blank" rel="noopener" class="contact-card reveal">
-            <i class="fa-brands fa-github"></i>
-            <div>
-              <span class="contact-card-label">GitHub</span>
-              <span class="contact-card-value">leonardoleoparo-alt</span>
-            </div>
-            <i class="fa-solid fa-arrow-up-right-from-square contact-card-arrow"></i>
-          </a>
-          <a href="mailto:leonardoleoparo@gmail.com" class="contact-card reveal">
-            <i class="fa-solid fa-envelope"></i>
-            <div>
-              <span class="contact-card-label">Email</span>
-              <span class="contact-card-value">leonardoleoparo@gmail.com</span>
-            </div>
-            <i class="fa-solid fa-arrow-up-right-from-square contact-card-arrow"></i>
-          </a>
-        </div>
-        <form class="contact-form reveal" onsubmit="return false;">
-          <div class="form-group">
-            <input type="text" id="form-name" placeholder=" " required />
-            <label for="form-name" data-pt="Seu Nome" data-en="Your Name">Seu Nome</label>
-          </div>
-          <div class="form-group">
-            <input type="email" id="form-email" placeholder=" " required />
-            <label for="form-email" data-pt="Seu Email" data-en="Your Email">Seu Email</label>
-          </div>
-          <div class="form-group">
-            <textarea id="form-message" rows="5" placeholder=" " required></textarea>
-            <label for="form-message" data-pt="Sua Mensagem" data-en="Your Message">Sua Mensagem</label>
-          </div>
-          <button type="submit" class="btn btn-primary btn-full" data-pt="Enviar Mensagem" data-en="Send Message"><i class="fa-solid fa-paper-plane"></i> <span>Enviar Mensagem</span></button>
-        </form>
-      </div>
-    </div>
-  </section>
-
   <!-- ============ FOOTER ============ -->
   <footer>
-    <div class="footer-content">
-      <a href="#home" class="footer-logo">Leonardo<span>.</span></a>
-      <div class="footer-social">
-        <a href="https://www.linkedin.com/in/leonardo-dos-santos-da-costa/" target="_blank" rel="noopener" aria-label="LinkedIn"><i class="fa-brands fa-linkedin-in"></i></a>
-        <a href="https://github.com/leonardoleoparo-alt" target="_blank" rel="noopener" aria-label="GitHub"><i class="fa-brands fa-github"></i></a>
-        <a href="mailto:leonardoleoparo@gmail.com" aria-label="Email"><i class="fa-solid fa-envelope"></i></a>
-      </div>
-      <p class="footer-text">&copy; 2026 Leonardo. <span data-pt="Todos os direitos reservados." data-en="All rights reserved.">Todos os direitos reservados.</span></p>
+   <div class="footer-content">
+    <a aria-label="Voltar ao in&iacute;cio" class="footer-signature" href="#home">
+     <img alt="" decoding="async" height="223" loading="lazy" src="assets/signature-leonardo.webp" width="900"/>
+    </a>
+    <div class="footer-social">
+     <a aria-label="LinkedIn" href="https://www.linkedin.com/in/leonardo-dos-santos-da-costa/" rel="noopener noreferrer" target="_blank">
+      <i aria-hidden="true" class="fa-brands fa-linkedin-in">
+      </i>
+     </a>
+     <a aria-label="GitHub" href="https://github.com/leonardoleoparo-alt" rel="noopener noreferrer" target="_blank">
+      <i aria-hidden="true" class="fa-brands fa-github">
+      </i>
+     </a>
+     <a aria-label="Email" href="mailto:leonardoleoparo@gmail.com">
+      <i aria-hidden="true" class="fa-solid fa-envelope">
+      </i>
+     </a>
     </div>
+    <p class="footer-text">
+     &copy;
+     <span id="current-year">
+      2026
+     </span>
+     Leonardo Costa.
+     <span data-en="All rights reserved." data-pt="Todos os direitos reservados.">
+      Todos os direitos reservados.
+     </span>
+    </p>
+   </div>
   </footer>
-
   <!-- ============ JAVASCRIPT ============ -->
   <script>
-    /* ── 1. Typing Effect ── */
-    const typedTextEl = document.getElementById('typed-text');
-    const wordsPt = ['Estudante de Programação', 'Apaixonado por Tecnologia', 'Aprendendo a Programar'];
-    const wordsEn = ['Programming Student', 'Tech Enthusiast', 'Learning to Code'];
-    let currentLang = 'pt';
-    let wordIndex = 0;
-    let charIndex = 0;
-    let isDeleting = false;
-    let words = wordsPt;
+   (() => {
+  const revealElements = document.querySelectorAll('.reveal, .reveal-stagger');
+  const navLinks = [...document.querySelectorAll('.nav-link')];
+  const sections = [...document.querySelectorAll('main section[id]')];
+  const header = document.getElementById('header');
+  const hamburger = document.getElementById('hamburger');
+  const navbar = document.getElementById('navbar');
+  const langToggle = document.getElementById('lang-toggle');
+  const langFlag = langToggle.querySelector('.lang-flag');
+  const langText = langToggle.querySelector('.lang-text');
+  const year = document.getElementById('current-year');
 
-    function typeEffect() {
-      const currentWord = words[wordIndex];
-      if (isDeleting) {
-        typedTextEl.textContent = currentWord.substring(0, charIndex - 1);
-        charIndex--;
-      } else {
-        typedTextEl.textContent = currentWord.substring(0, charIndex + 1);
-        charIndex++;
-      }
+  if (year) year.textContent = new Date().getFullYear();
 
-      let typeSpeed = isDeleting ? 50 : 100;
-
-      if (!isDeleting && charIndex === currentWord.length) {
-        typeSpeed = 2000;
-        isDeleting = true;
-      } else if (isDeleting && charIndex === 0) {
-        isDeleting = false;
-        wordIndex = (wordIndex + 1) % words.length;
-        typeSpeed = 500;
-      }
-
-      setTimeout(typeEffect, typeSpeed);
-    }
-    typeEffect();
-
-    /* ── 2. Scroll Reveal ── */
-    const revealElements = document.querySelectorAll('.reveal, .reveal-stagger');
-    const revealOnScroll = () => {
-      revealElements.forEach(el => {
-        const windowHeight = window.innerHeight;
-        const elementTop = el.getBoundingClientRect().top;
-        const revealPoint = 150;
-        if (elementTop < windowHeight - revealPoint) {
-          el.classList.add('active');
+  // Reveal content only when JavaScript is available; otherwise CSS keeps it visible.
+  if ('IntersectionObserver' in window) {
+    const revealObserver = new IntersectionObserver((entries, observer) => {
+      entries.forEach(entry => {
+        if (entry.isIntersecting) {
+          entry.target.classList.add('active');
+          observer.unobserve(entry.target);
         }
       });
-    };
-    window.addEventListener('scroll', revealOnScroll);
-    revealOnScroll();
+    }, { rootMargin: '0px 0px -48px', threshold: 0.08 });
+    revealElements.forEach(el => revealObserver.observe(el));
+  } else {
+    revealElements.forEach(el => el.classList.add('active'));
+  }
 
-    /* ── 3. Active Nav on Scroll ── */
-    const sections = document.querySelectorAll('section[id]');
-    const navLinks = document.querySelectorAll('.nav-link');
-    window.addEventListener('scroll', () => {
-      let current = '';
-      sections.forEach(section => {
-        const sectionTop = section.offsetTop - 100;
-        if (scrollY >= sectionTop) {
-          current = section.getAttribute('id');
-        }
-      });
-      navLinks.forEach(link => {
-        link.classList.remove('active');
-        if (link.getAttribute('href') === '#' + current) {
-          link.classList.add('active');
-        }
-      });
-    });
-
-    /* ── 4. Header Background on Scroll ── */
-    const header = document.getElementById('header');
-    window.addEventListener('scroll', () => {
-      header.classList.toggle('scrolled', window.scrollY > 50);
-    });
-
-    /* ── 5. Mobile Menu Toggle ── */
-    const hamburger = document.getElementById('hamburger');
-    const navbar = document.getElementById('navbar');
-    hamburger.addEventListener('click', () => {
-      hamburger.classList.toggle('active');
-      navbar.classList.toggle('active');
-      document.body.classList.toggle('no-scroll');
-    });
+  // Keep navigation state synchronized with the section currently in view.
+  const setActiveNav = (id) => {
     navLinks.forEach(link => {
-      link.addEventListener('click', () => {
-        hamburger.classList.remove('active');
-        navbar.classList.remove('active');
-        document.body.classList.remove('no-scroll');
-      });
+      const active = link.getAttribute('href') === `#${id}`;
+      link.classList.toggle('active', active);
+      if (active) link.setAttribute('aria-current', 'location');
+      else link.removeAttribute('aria-current');
+    });
+  };
+
+  if ('IntersectionObserver' in window) {
+    const navObserver = new IntersectionObserver((entries) => {
+      const visible = entries
+        .filter(entry => entry.isIntersecting)
+        .sort((a, b) => b.intersectionRatio - a.intersectionRatio)[0];
+      if (visible) setActiveNav(visible.target.id);
+    }, { rootMargin: '-28% 0px -58% 0px', threshold: [0, 0.15, 0.4, 0.7] });
+    sections.forEach(section => navObserver.observe(section));
+  }
+
+  const updateHeader = () => header.classList.toggle('scrolled', window.scrollY > 50);
+  window.addEventListener('scroll', updateHeader, { passive: true });
+  updateHeader();
+
+  const closeMenu = () => {
+    hamburger.classList.remove('active');
+    navbar.classList.remove('active');
+    document.body.classList.remove('no-scroll');
+    hamburger.setAttribute('aria-expanded', 'false');
+    hamburger.setAttribute('aria-label', 'Abrir menu');
+  };
+
+  hamburger.addEventListener('click', () => {
+    const opening = !navbar.classList.contains('active');
+    hamburger.classList.toggle('active', opening);
+    navbar.classList.toggle('active', opening);
+    document.body.classList.toggle('no-scroll', opening);
+    hamburger.setAttribute('aria-expanded', String(opening));
+    hamburger.setAttribute('aria-label', opening ? 'Fechar menu' : 'Abrir menu');
+  });
+
+  navLinks.forEach(link => link.addEventListener('click', closeMenu));
+  document.addEventListener('keydown', event => {
+    if (event.key === 'Escape' && navbar.classList.contains('active')) {
+      closeMenu();
+      hamburger.focus();
+    }
+  });
+  window.addEventListener('resize', () => {
+    if (window.innerWidth > 768 && navbar.classList.contains('active')) closeMenu();
+  });
+
+  let currentLang = 'pt';
+  const navTranslations = {
+    pt: ['Início', 'Sobre', 'Habilidades', 'Projetos', 'Contato'],
+    en: ['Home', 'About', 'Skills', 'Projects', 'Contact']
+  };
+
+  langToggle.addEventListener('click', () => {
+    currentLang = currentLang === 'pt' ? 'en' : 'pt';
+    langFlag.textContent = currentLang === 'pt' ? '🇧🇷' : '🇺🇸';
+    langText.textContent = currentLang === 'pt' ? 'PT' : 'EN';
+
+    document.querySelectorAll('[data-pt][data-en]').forEach(el => {
+      const text = el.getAttribute(`data-${currentLang}`);
+      const icon = el.querySelector(':scope > i');
+      if (icon) {
+        el.replaceChildren(icon, document.createTextNode(` ${text}`));
+      } else {
+        el.textContent = text;
+      }
     });
 
-    /* ── 6. Language Toggle ── */
-    const langToggle = document.getElementById('lang-toggle');
-    const langFlag = langToggle.querySelector('.lang-flag');
-    const langText = langToggle.querySelector('.lang-text');
-
-    const navTranslations = {
-      pt: ['Início', 'Sobre', 'Habilidades', 'Projetos', 'Contato'],
-      en: ['Home', 'About', 'Skills', 'Projects', 'Contact']
-    };
-
-    langToggle.addEventListener('click', () => {
-      currentLang = currentLang === 'pt' ? 'en' : 'pt';
-      langFlag.textContent = currentLang === 'pt' ? '🇧🇷' : '🇺🇸';
-      langText.textContent = currentLang === 'pt' ? 'PT' : 'EN';
-
-      document.querySelectorAll('[data-pt][data-en]').forEach(el => {
-        const text = el.getAttribute('data-' + currentLang);
-        if (el.tagName === 'INPUT' || el.tagName === 'TEXTAREA') {
-          el.placeholder = text;
-        } else if (el.tagName === 'LABEL') {
-          el.textContent = text;
-        } else {
-          const icon = el.querySelector('i');
-          if (icon) {
-            el.innerHTML = '';
-            el.appendChild(icon);
-            el.appendChild(document.createTextNode(' ' + text));
-          } else {
-            const btnSpan = el.querySelector('span:not(.cursor)');
-            if (btnSpan) {
-              btnSpan.textContent = text;
-            } else {
-              el.textContent = text;
-            }
-          }
-        }
-      });
-
-      navLinks.forEach((link, i) => {
-        link.textContent = navTranslations[currentLang][i];
-      });
-
-      words = currentLang === 'pt' ? wordsPt : wordsEn;
-      wordIndex = 0;
-      charIndex = 0;
-      isDeleting = false;
-
-      document.documentElement.lang = currentLang === 'pt' ? 'pt-BR' : 'en';
+    navLinks.forEach((link, index) => {
+      link.textContent = navTranslations[currentLang][index];
     });
 
-    /* ── 7. Smooth Scroll ── */
-    document.querySelectorAll('a[href^="#"]').forEach(anchor => {
-      anchor.addEventListener('click', function (e) {
-        e.preventDefault();
-        const target = document.querySelector(this.getAttribute('href'));
-        if (target) {
-          target.scrollIntoView({ behavior: 'smooth', block: 'start' });
-        }
-      });
-    });
+    document.documentElement.lang = currentLang === 'pt' ? 'pt-BR' : 'en';
+    langToggle.setAttribute(
+      'aria-label',
+      currentLang === 'pt' ? 'Mudar idioma para inglês' : 'Switch language to Portuguese'
+    );
+  });
+})();
   </script>
-</body>
+ </body>
 </html>
